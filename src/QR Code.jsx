@@ -52,7 +52,7 @@ export default function Qrcode() {
 
        
         <div className='btn'>
-             <button className='generate-btn ' onClick={handleimg}>Generate QR Code</button>
+             <button className='generate-btn ' onClick={handleimg} disabled={loading}>Generate QR Code</button>
             <button className='download-btn' onClick={downloadQr} > Download QR Code</button>
             {/* <button onClick={Delete}>delete</button> */}
         </div>
