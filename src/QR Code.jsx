@@ -5,7 +5,7 @@ import './qrcode.css';
 export default function Qrcode() {
     const [img,setImg]= useState("");
     const[loading,setLoading] = useState("");
-    const [qrdata,setQrdata] = useState("https://tutorjoes.in/");
+    const [qrdata,setQrdata] = useState("https://youtube.com/");
     const [sizeQr, setSizeQr] = useState("150")
 
    async function handleimg(){
@@ -56,7 +56,7 @@ export default function Qrcode() {
             <button className='download-btn' onClick={downloadQr} > Download QR Code</button>
             {/* <button onClick={Delete}>delete</button> */}
         </div>
-        <p>Designed by <a href="">Mythili</a></p>
+        <p>Designed by <a href="https://github.com/mythilisaminathan">Mythili</a></p>
         </div>
     );
 
